@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding:0px;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    height: auto;
+    min-height: 30px;
+}
+
+h1 {
+    font-size: 35px;
+    color: #2e3a43;
+}
+
+
+
+
+nav a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    padding: 6px;
+    float: right;
+}
+
+nav a:hover {
+    color:#999999;
+    
+}
+
+main {
+    padding: 10% 0 0 25px;
+    min-height: calc(100vh - 30px);
+}
+
+main h1 {
+    text-align: center;
+}
+
+.h1p {
+    text-align: left;
+    padding: 0 0 0 40px ;
+}
+
+
+
+section {
+    text-align: center;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color:black;  
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+footer p {
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+
+.contactinfo h1 {
+    text-align: center;
+    padding: 0 0 0 25px;
+    
+}
+
+
+.contactinfo li {
+    padding:3px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials img {
+    height:37px;
+    width: 37px;
+    opacity: 0.7;
+    padding: 10px;
+    transition: 0.3s;
+
+}
+
+.socials img:hover {
+    opacity: 1;
+}
+
+.projects li {
+   
+    height: auto;
+    width: 60rem;
+    border-radius: 10px; 
+    background-color: lightgray;
+    list-style-type: none;
+    padding: 20px 0 20px 20px;
+    margin: 0 0 60px 0;
+    
+    
+   
+}
+
+
+
+
